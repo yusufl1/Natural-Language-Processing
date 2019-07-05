@@ -1,0 +1,11 @@
+delta, perplexity for English, perplexity for French
+0, 16.60, 16.03
+0.0001, 16.975, 16.533
+0.001, 18.746, 18.711
+0.1, 50.162, 55.310
+0.5, 103.79, 120.978
+1, 150.15, 180.11
+It seems add-delta smoothing increases perplexity, proportionally to delta, for both English and French language models.
+Therefore, add-delta smoothing makes our models harder to work with.
+Furthermore, we can observe a trend that perplexity is initially higher for the English language model, up until
+we set detla >= 0.1, and then perplexity becomes higher in the French language model

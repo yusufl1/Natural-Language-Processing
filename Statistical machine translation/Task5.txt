@@ -1,0 +1,52 @@
+
+Overall, it seems that each corresponding pair of reference sentences are similar, especially semantically, though there are noticeable differences.
+For example, the first pair of sentences match exactly, except the google sentence contains a comma. There are cases though
+where the google translation is slightly off i.e. 'member of parliament' in the hansard sentence getting translated to 'deputy' in the google translation. 
+There are also cases where the sentences have a pretty different form but have a similar meaning i.e. ['i cannot imagine anything so ridiculous .', 'it is the height of ridicule']
+In general the pairs of sentences are related very closely semantically but there tend to be slight differences in a few words or 
+the form of the sentences.
+
+Using more than 2 reference sentences would probably increase our BLEU scores, because more sentences means more opportunities 
+for unigrams, bigrams and trigrams in our candidate sentence to appear in one of the reference sentences. This would increase
+the numerator of the BLEU score and therefore increase the overall BLEU score.
+
+In general, our BLEU scores are not very high. The highest BLEU score we achieve is 0.75, which is for the 22nd sentence
+decoded using the 10k, 15k, and 30k alignment models. However the rest of the BLEU scores are less than or equal to 0.55,
+meaning our decoder is not doing a good job in translation.
+
+Some trends we may observe: 
+In general, BLEU score for n = 2 and n = 3 are 0. There is only one case for n = 3 where 
+the BLEU score in non-zero, and it was only 0.288. n = 2 has more cases with non-zero scores. 
+
+BLEU scores are often the same across all the alignment models for the same sentence, but there are a considerable number
+of cases where the BLEU score for the 10k, 15k and 30k alignment models have the same BLEU scores, which are greater
+than in the 1k case for the same sentence. So sometimes training on more than 1k sentences improves the quality of translation
+
+
+
+Sentence i: [AM1k:[n=1, n=2, n=3], ... AM30k:[n=1, n=2, n=3]]
+[[0.2, 0.0, 0.0], [0.26666666666666666, 0.0, 0.0], [0.26666666666666666, 0.0, 0.0], [0.26666666666666666, 0.0, 0.0]]
+[[0.14285714285714285, 0.0, 0.0], [0.14285714285714285, 0.0, 0.0], [0.14285714285714285, 0.0, 0.0], [0.14285714285714285, 0.0, 0.0]]
+[[0.5454545454545454, 0.0, 0.0], [0.5454545454545454, 0.0, 0.0], [0.5454545454545454, 0.0, 0.0], [0.5454545454545454, 0.0, 0.0]]
+[[0.16666666666666666, 0.0, 0.0], [0.25, 0.0, 0.0], [0.25, 0.0, 0.0], [0.25, 0.0, 0.0]]
+[[0.45454545454545453, 0.0, 0.0], [0.45454545454545453, 0.0, 0.0], [0.45454545454545453, 0.0, 0.0], [0.45454545454545453, 0.0, 0.0]]
+[[0.5, 0.37796447300922725, 0.28768479133239405], [0.5, 0.37796447300922725, 0.28768479133239405], [0.5, 0.37796447300922725, 0.28768479133239405], [0.5, 0.37796447300922725, 0.28768479133239405]]
+[[0.2727272727272727, 0.0, 0.0], [0.18181818181818182, 0.0, 0.0], [0.18181818181818182, 0.0, 0.0], [0.18181818181818182, 0.0, 0.0]]
+[[0.3333333333333333, 0.0, 0.0], [0.3333333333333333, 0.0, 0.0], [0.3333333333333333, 0.0, 0.0], [0.3333333333333333, 0.0, 0.0]]
+[[0.16666666666666666, 0.0, 0.0], [0.16666666666666666, 0.0, 0.0], [0.16666666666666666, 0.0, 0.0], [0.16666666666666666, 0.0, 0.0]]
+[[0.125, 0.0, 0.0], [0.25, 0.1889822365046136, 0.0], [0.25, 0.1889822365046136, 0.0], [0.25, 0.1889822365046136, 0.0]]
+[[0.45454545454545453, 0.21320071635561041, 0.0], [0.2727272727272727, 0.1651445647689541, 0.0], [0.2727272727272727, 0.1651445647689541, 0.0], [0.2727272727272727, 0.1651445647689541, 0.0]]
+[[0.25, 0.0, 0.0], [0.25, 0.0, 0.0], [0.25, 0.0, 0.0], [0.25, 0.0, 0.0]]
+[[0.125, 0.0, 0.0], [0.125, 0.0, 0.0], [0.125, 0.0, 0.0], [0.125, 0.0, 0.0]]
+[[0.375, 0.22360679774997894, 0.0], [0.375, 0.22360679774997894, 0.0], [0.375, 0.22360679774997894, 0.0], [0.375, 0.22360679774997894, 0.0]]
+[[0.45454545454545453, 0.21320071635561041, 0.0], [0.45454545454545453, 0.21320071635561041, 0.0], [0.45454545454545453, 0.21320071635561041, 0.0], [0.45454545454545453, 0.21320071635561041, 0.0]]
+[[0.4, 0.21081851067789195, 0.0], [0.4, 0.21081851067789195, 0.0], [0.4, 0.21081851067789195, 0.0], [0.4, 0.21081851067789195, 0.0]]
+[[0.375, 0.23145502494313783, 0.0], [0.375, 0.23145502494313783, 0.0], [0.375, 0.23145502494313783, 0.0], [0.375, 0.23145502494313783, 0.0]]
+[[0.5294117647058824, 0.3150630189063022, 0.0], [0.5294117647058824, 0.3150630189063022, 0.0], [0.5294117647058824, 0.3150630189063022, 0.0], [0.5294117647058824, 0.3150630189063022, 0.0]]
+[[0.2727272727272727, 0.0, 0.0], [0.2727272727272727, 0.0, 0.0], [0.2727272727272727, 0.0, 0.0], [0.2727272727272727, 0.0, 0.0]]
+[[0.5, 0.2672612419124244, 0.0], [0.5, 0.2672612419124244, 0.0], [0.5, 0.2672612419124244, 0.0], [0.5, 0.2672612419124244, 0.0]]
+[[0.5, 0.0, 0.0], [0.6666666666666666, 0.3651483716701107, 0.0], [0.6666666666666666, 0.3651483716701107, 0.0], [0.6666666666666666, 0.3651483716701107, 0.0]]
+[[0.375, 0.23145502494313783, 0.0], [0.75, 0.4629100498862757, 0.0], [0.75, 0.4629100498862757, 0.0], [0.75, 0.4629100498862757, 0.0]]
+[[0.4166666666666667, 0.19462473604038075, 0.0], [0.4166666666666667, 0.19462473604038075, 0.0], [0.4166666666666667, 0.19462473604038075, 0.0], [0.4166666666666667, 0.19462473604038075, 0.0]]
+[[0.3125, 0.0, 0.0], [0.3125, 0.0, 0.0], [0.3125, 0.0, 0.0], [0.3125, 0.0, 0.0]]
+[[0.16666666666666666, 0.0, 0.0], [0.16666666666666666, 0.0, 0.0], [0.16666666666666666, 0.0, 0.0], [0.16666666666666666, 0.0, 0.0]]
