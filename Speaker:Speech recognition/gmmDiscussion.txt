@@ -1,0 +1,128 @@
+M = 3,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 0.9375
+M = 3,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 0.96875
+M = 3,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 0.9375
+M = 3,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 0.90625
+M = 3,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 0.96875
+M = 3,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 0.96875
+M = 3,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 0.9375
+M = 3,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 1.0
+M = 3,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 1.0
+M = 3,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 0.9629629629629629
+M = 3,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 1.0
+M = 3,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 0.9629629629629629
+M = 3,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 0.9259259259259259
+M = 3,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 0.9259259259259259
+M = 3,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 0.9629629629629629
+M = 3,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 1.0
+M = 3,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 0.9259259259259259
+M = 3,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 0.9629629629629629
+M = 3,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 1.0
+M = 3,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 1.0
+M = 3,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 0.9411764705882353
+M = 3,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 1.0
+M = 3,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 1.0
+M = 3,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 1.0
+M = 3,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 1.0
+M = 3,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 0.9411764705882353
+M = 3,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 1.0
+M = 5,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 0.96875
+M = 5,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 0.9375
+M = 5,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 1.0
+M = 5,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 1.0
+M = 5,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 1.0
+M = 5,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 0.96875
+M = 5,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 0.96875
+M = 5,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 1.0
+M = 5,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 0.96875
+M = 5,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 0.9629629629629629
+M = 5,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 0.9629629629629629
+M = 5,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 1.0
+M = 5,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 1.0
+M = 5,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 1.0
+M = 5,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 1.0
+M = 5,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 1.0
+M = 5,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 1.0
+M = 5,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 1.0
+M = 5,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 1.0
+M = 5,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 1.0
+M = 5,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 1.0
+M = 5,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 0.9411764705882353
+M = 5,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 1.0
+M = 5,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 1.0
+M = 5,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 1.0
+M = 5,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 0.9411764705882353
+M = 5,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 1.0
+M = 8,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 0.96875
+M = 8,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 1.0
+M = 8,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 1.0
+M = 8,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 1.0
+M = 8,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 1.0
+M = 8,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 1.0
+M = 8,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 1.0
+M = 8,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 1.0
+M = 8,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 0.96875
+M = 8,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 1.0
+M = 8,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 1.0
+M = 8,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 1.0
+M = 8,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 1.0
+M = 8,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 1.0
+M = 8,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 1.0
+M = 8,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 1.0
+M = 8,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 1.0
+M = 8,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 1.0
+M = 8,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 1.0
+M = 8,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 1.0
+M = 8,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 1.0
+M = 8,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 1.0
+M = 8,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 1.0
+M = 8,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 1.0
+M = 8,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 1.0
+M = 8,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 1.0
+M = 8,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 1.0
+M = 10,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 1.0
+M = 10,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 1.0
+M = 10,  maxIter = 5,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 0.96875
+M = 10,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 1.0
+M = 10,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 1.0
+M = 10,  maxIter = 15,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 1.0
+M = 10,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.0,  accuracy = 1.0
+M = 10,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.001,  accuracy = 1.0
+M = 10,  maxIter = 25,  numSpeakers = 32,  epsilon = 0.01,  accuracy = 1.0
+M = 10,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 1.0
+M = 10,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 1.0
+M = 10,  maxIter = 5,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 1.0
+M = 10,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 1.0
+M = 10,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 1.0
+M = 10,  maxIter = 15,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 1.0
+M = 10,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.0,  accuracy = 1.0
+M = 10,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.001,  accuracy = 1.0
+M = 10,  maxIter = 25,  numSpeakers = 27,  epsilon = 0.01,  accuracy = 1.0
+M = 10,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 1.0
+M = 10,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 1.0
+M = 10,  maxIter = 5,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 1.0
+M = 10,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 1.0
+M = 10,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 1.0
+M = 10,  maxIter = 15,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 1.0
+M = 10,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.0,  accuracy = 1.0
+M = 10,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.001,  accuracy = 1.0
+M = 10,  maxIter = 25,  numSpeakers = 17,  epsilon = 0.01,  accuracy = 1.0
+
+It seems that, holding all else fixed, accuracy decreases when we decrease M, particularly when it is less than 5. Furthermore, accuracy
+increases when we increase M. Increasing maxIter from 5 to 15 to 25 shows some fluctuation. Accuracy increases when
+we increase maxIter from 5 to 15, but it decreases by the same amount when we increase maxIter from 15 to 25. Also,
+when we decrease the number of possible speakers, accuracy increases. As a function of epsilon, our classification
+accuracy generally increases as epsilon increases, but it sometimes fluctuates .
+
+We could improve the classification accuracy of the gaussian mixture by using different methods of preprocessing for
+the data or by using more components in the gaussian mixture model.
+
+My classifier would never decide that a given test utterance came from none of the trained speakers. This is because
+ the test function simply will choose the speaker with the highest log likelihood. If all the speakers had low log
+ likelihood, it would simply choose the least low as the speaker, and if all the speakers had equal log likelihoods,
+ it would just choose the first element of the list storing the speakers and their log likelihoods, so it's decided
+ by python's sorting algorithm since this is used in our test function
+
+We could use deep neural networks like in Kaldi, hidden Markov models, hidden Markov neural nets where we apply
+properties of hidden markov models to neural networks, or dynamic time warping which is where we check for similarity
+between two time series (instances of speech) using by non-linearly warping one to see if it can be aligned with the
+other
